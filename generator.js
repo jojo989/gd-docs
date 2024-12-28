@@ -1,19 +1,23 @@
-/* eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
-const childProcess = require("child_process");
-const chalk = require("chalk");
-const os = require("os");
+// eslint-disable-next-line no-console
+import { exec } from 'child_process';
+import chalk from 'chalk';
+import os from 'os';
 
-require("./scripts/installPackages.js"); // install packages
+// Import local script as an ES module
+import './scripts/installPackages.js';
 
-// serve data
+// Define the command to serve documentation
 let command = "node ./node_modules/docsify-cli/bin/docsify serve ./docs --port 9505";
 
 if (os.platform() === "win32") {
+    // Adjust command for Windows
     command = "node \"./node_modules/docsify-cli/bin/docsify\" serve ./docs --port 9505";
 }
 
 console.log(`${chalk.hex("#66d9ff")("Running Command: ")} ${command}\n`);
 
-const docsProcess = childProcess.exec(command);
+// Execute the command
+const docsProcess = exec(command);
 
+// Handle process exit
 docsProcess.on("exit", () => process.exit(0));
