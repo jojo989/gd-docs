@@ -1,6 +1,5 @@
 # Client Color String Resource
 
-## Color String
 The color string contains the information for the initial state of the colors being used in the level. Its raw representation is formatted as follows:
 
 `{color}|{color}|...`, where `color` is formatted as:

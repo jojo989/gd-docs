@@ -43,7 +43,7 @@
     - [Enumerations](/resources/client/level-components/enumerations.md)
     - [Level Colors](/resources/client/level-components/level-colors.md)
     - [Inner Level String](/resources/client/level-components/inner-level-string.md)
-    - [Level Object](/resources/client/level-components/level-object.md)
+    - [Level String](/resources/client/level-components/level-string.md)
     - [Color String](/resources/client/level-components/color-string.md)
     - [Guideline String](/resources/client/level-components/guideline-string.md)
     - [Particle String](/resources/client/level-components/particle-string.md)

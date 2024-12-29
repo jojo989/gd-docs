@@ -1,6 +1,5 @@
 # Client Inner Level String Resource
 
-## Inner Level String
 The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
 
 `{level_start};{object_string}`, where

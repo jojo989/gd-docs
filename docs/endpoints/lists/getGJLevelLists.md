@@ -78,6 +78,7 @@
 |  2  | Medium |
 |  3  | Long   |
 |  4  | XL     |
+|  5  | Platformer     |
 
 </details>
 
@@ -86,14 +87,13 @@
 A successful level search will return the data in the format
 
 ```
-levels#creators#songs#page info#hash
+levels#creators#page info#hash
 ```
 
 where:
 
-- `levels` is a list of [Level Objects](/resources/client/level-components/level-object.md)  separated by `|`
+- `levels` is a list of [List Objects](/resources/server/list.md)  separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
-- `songs` is a list of [Song Objects](/resources/server/song.md) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
   - `offset` - offset from which the current page starts
