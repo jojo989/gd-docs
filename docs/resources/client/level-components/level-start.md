@@ -15,9 +15,9 @@ The level start object has the following properties, formatted as `{key},{value}
 | Key  | Name                   | Type                                        | Description                                                                                                    |
 |:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | kA1  | AudioTrack             | **Integer**                                 | The audio track which the level uses |
-| kA2  | Gamemode               | **[Gamemode](enumerations.md)**             | the gamemode the player starts with                                                                            |
+| kA2  | Gamemode               | **[Gamemode](resources/client/level-components/enumerations?id=gamemode)**             | the gamemode the player starts with                                                                            |
 | kA3  | Mini Mode              | **bool**                                    | determines whether the player starts off as mini Mode                                                          |
-| kA4  | Speed                  | **[Speed](enumerations.md)**                | the speed of the level at the start                                                                            |
+| kA4  | Speed                  | **[Speed](resources/client/level-components/enumerations?id=speed)**                | the speed of the level at the start                                                                            |
 | kA5  | Obj-2 Blending         | **bool**                                    | (deprecated since 1.9) Whether Object-2 (color channel 1) uses blending or not                                 |
 | kA6  | Background Texture ID  | **integer**                                 | the ID of the background texture that is being used in the level<br/>(enumerated in the same order as appears) |
 | kA7  | Ground Texture ID      | **integer**                                 | the ID of the ground texture that is being used in the level<br/>(enumerated in the same order as appears)     |
@@ -27,7 +27,7 @@ The level start object has the following properties, formatted as `{key},{value}
 | kA11 | Flip Gravity           | **bool**                                    | determines whether the player starts off in flipped Gravity                                                    |
 | kA12 | Color3 Blending (UNUSED)| **bool**                                   | Unused, apparently meant to determine whether color channel 3 is blending or not                               |
 | kA13 | Song Offset            | **float**                                   | the song offset in seconds from which the level begins                                                         |
-| kA14 | Guidelines             | **[Guideline String](guideline-string.md)** | the editor song guidelines of the level                                                                        |
+| kA14 | Guidelines             | **[Guideline String](resources/client/level-components/guideline-string.md)** | the editor song guidelines of the level                                                                        |
 | kA15 | Fade In                | **bool**                                    | determines whether the song will fade in as soon as the level starts                                           |
 | kA16 | Fade Out               | **bool**                                    | determines whether the song will fade in as soon as the level ends                                             |
 | kA17 | Ground Line            | **integer**                                 | the ID of the ground line that is being used in the level                                                      |
@@ -51,7 +51,7 @@ The level start object has the following properties, formatted as `{key},{value}
 | kA42 | Reverse Sync           | **bool**                                    | (Compatibility setting) Whether the player's speed is changed when reversing to preserve music sync            |
 | kA43 | No Time Penalty        | **bool**                                    | Whether you get a point penalty for time (0) or not (1) in platformer                                          |
 | kA45 | Decrease Boost Slide   | **bool**                                    | (Compatibility setting) Whether the player receives a lesser boost in Platformer when boosted by dash orb or moving platforms|
-| kS38 | Colors                 | **[Color String](color-string.md)**         | the color channels that are being used in this level                                                           |
+| kS38 | Colors                 | **[Color String](resources/client/level-components/color-string.md)**         | the color channels that are being used in this level                                                           |
 | kS39 | Color Page             | **integer**                                 | the color page which was last displayed in the color channel display window                                    |
 
 ***Pre-2.0 Keys***

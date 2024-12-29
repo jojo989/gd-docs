@@ -36,7 +36,7 @@ kCEK 11's are stored in key 3 of kCEK 10 in the following format:
 </d>
 ```
 
-kCEK 11 key 1 is the [object string](/resources/client/level-components/level-object.md) of the template variation. The object string is **unencoded** and stored raw. The center point is at X: 0, Y: -90.
+kCEK 11 key 1 is the [object string](/resources/client/level-components/level-string.md) of the template variation. The object string is **unencoded** and stored raw. The center point is at X: 0, Y: -90.
 
 The keys of the dictionary are 9-bit bitfields (binary numbers) representing the exact type of template variation. The first bit is reserved and is always set to `1`. Other bits represent:
 
