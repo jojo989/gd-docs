@@ -39,7 +39,7 @@ This class contains a dynamic color copied from another color channel. This colo
 | Copy Opacity    | **bool**    | This determines whenever CopyColor should also copy the opacity belonging to the color channel in `Copy Color ID` |
 | Opacity         | **float**   | The alpha component of the Copy Color. If `Copy Opacity` is true. This property is ignored. |
 | Blending        | **bool**    | The blending property of the CopyColor since it cannot be copied |
-| Copy HSV        | **[HSV](resources/client/level-components/level-object.md?id=object-string)** | The HSV property that changes the color's tint depending on the value |
+| Copy HSV        | **[HSV](resources/client/level-components/level-string.md?id=object-string)** | The HSV property that changes the color's tint depending on the value |
 
 ### Determining which class is used
 Here is a simple JavaScript function that determines what color class the color object has:

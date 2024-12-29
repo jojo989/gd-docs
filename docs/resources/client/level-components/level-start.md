@@ -1,16 +1,16 @@
-# Client Inner Level String Resource
+# Client Level Start String
 
-The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
+The start level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
 
 `{level_start};{object_string}`, where
 
 - `level_start` is the level start object,
 - `object_string` is the [object string]().
 
-Theoretically, the inner level string in its entirety is the object string, however the level start object is treated specially, unlike every other object, and doesn't even have an ID.
+Theoretically, the start level string in its entirety is the object string, however the level start object is treated specially, unlike every other object, and doesn't even have an ID.
 
 ## Level Start Object
-The level start object is still an object and formated exactly like a normal [level object](level-object.md), but has the following properties instead:
+The level start object has the following properties, formatted as `{key},{value},{key},{value}`
 
 | Key  | Name                   | Type                                        | Description                                                                                                    |
 |:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
