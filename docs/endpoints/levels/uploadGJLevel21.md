@@ -24,7 +24,7 @@ Uploads a created level to the servers.
 
 **levelLength** - The length of the level as a number, where 0 is tiny, 4 is XL and 5 is Platformer
 
-**audioTrack** - The [official song number](./reference.md) used in the level. Set to 0 if a newgrounds song is used
+**audioTrack** - The [official song number](/reference/songs?id=table-of-official-songs) used in the level. Set to 0 if a newgrounds song is used
 
 **auto** - Unknown (0)
 
