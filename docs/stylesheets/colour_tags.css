@@ -1,55 +1,64 @@
-cb {
-color:#4A52E1;
+@font-face {
+    font-family: "TeX Gyre Heros";
+    src: url("/assets/fonts/texgyreheros-regular.woff") format("woff");
 }
 
-cg {
-    color: #40E348;
-}
+gdfmt {
+    font-family: "TeX Gyre Heros";
 
-cl {
-    color:  #60ABEF;
-}
+    cb {
+        color: #4A52E1;
+    }
 
-cj {
-    color: #32C8FF;
-}
+    cg {
+        color: #40E348;
+    }
 
-cy {
-    color: #FFFF00;
-}
+    cl {
+        color: #60ABEF;
+    }
 
-co {
-    color: #FFA54B;
-}
+    cj {
+        color: #32C8FF;
+    }
 
-cr {
-    color: #FF5A5A;
-}
+    cy {
+        color: #FFFF00;
+    }
 
-cp {
-    color: #FF00FF;
-}
+    co {
+        color: #FFA54B;
+    }
 
-ca {
-    color: #9632FF;
-}
+    cr {
+        color: #FF5A5A;
+    }
 
-cd {
-    color: #FF96FF;
-}
+    cp {
+        color: #FF00FF;
+    }
 
-cc {
-    color: #FFFF96;
-}
+    ca {
+        color: #9632FF;
+    }
 
-cf {
-    color: #96FFFF;
-}
+    cd {
+        color: #FF96FF;
+    }
 
-cs {
-    color: #FFDC41;
-}
+    cc {
+        color: #FFFF96;
+    }
 
-ccDefault {
-    color: #FF0000;
+    cf {
+        color: #96FFFF;
+    }
+
+    cs {
+        color: #FFDC41;
+    }
+
+    c {
+        color: #FF0000;
+    }
 }
