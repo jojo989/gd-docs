@@ -1,6 +1,6 @@
 @font-face {
     font-family: "TeX Gyre Heros";
-    src: url("/assets/fonts/texgyreheros-regular.woff") format("woff");
+    src: url("../assets/fonts/texgyreheros-regular.woff") format("woff");
 }
 
 gdfmt {
