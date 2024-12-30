@@ -1,14 +1,17 @@
 // install_packages.js
 // made by Homura
-const chalk = require("chalk");
-const fs = require("fs");
-const childProcess = require("child_process");
+import fs from 'fs';
+import { exec } from 'child_process';
 
-const package = require("../package.json");
-const missing = Object.keys(package.dependencies)
-    .filter((package) => !fs.existsSync(`../node_modules/${package}`));
+// Read package.json synchronously
+const packageJsonContent = fs.readFileSync(new URL('../package.json', import.meta.url));
+const packageJson = JSON.parse(packageJsonContent);
+
+// Filter out packages that are not installed
+const missing = Object.keys(packageJson.dependencies)
+    .filter((packageName) => !fs.existsSync(`../node_modules/${packageName}`));
 
 if (missing.length > 0) {
-    console.log(chalk.hex("#79b0fc")("Installing Packages: ") + missing.join(", "));
-    childProcess.exec(`npm i --save ${missing.join(" ")}`);
+    console.log(("Installing Packages: ") + missing.join(", "));
+    exec(`npm i --save ${missing.join(" ")}`);
 }
