@@ -17,10 +17,10 @@ console.log(`${("Running Command: ")} ${command}\n`);
 
 // Execute the command
 const docsProcess = exec(command);
-docsProcess.on("exit", () => process.exit(0));
 
 if(docsProcess.exitCode === null) {
     console.log("http://localhost:9505")
 }
+docsProcess.on("exit", () => process.exit(0));
 
 // Handle process exit

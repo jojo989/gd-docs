@@ -84,15 +84,15 @@
 
 ## Response
 
-A successful level search will return the data in the format
+A successful list search will return the data in the format
 
 ```
-levels#creators#page info#hash
+lists#creators#page info#hash
 ```
 
 where:
 
-- `levels` is a list of [List Objects](/resources/server/list.md)  separated by `|`
+- `lists` is a list of [List Objects](/resources/server/list.md)  separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
