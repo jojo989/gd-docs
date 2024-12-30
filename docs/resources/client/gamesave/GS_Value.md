@@ -21,10 +21,10 @@ GS values contain Information regarding certain aspects of the game
 | 13 | Total Diamonds |
 | 14 | current orbs |
 | 15 | Completed Daily Levels |
-| 16 | Fire Shards |
-| 17 | Ice Shards |
-| 18 | Poison Shards |
-| 19 | Shadow Shards |
+| 16 | Shadow Shards |
+| 17 | Poison Shards |
+| 18 | Fire Shards |
+| 19 | Ice Shards |
 | 20 | Lava Shards |
 | 21 | Demon Keys|
 | 22 | Total Orbs Collected |
@@ -47,6 +47,8 @@ GS values contain Information regarding certain aspects of the game
 | 39 | Soul Path Progress |
 | 40 | Amount of Completed Gauntlets |
 | 41 | List Rewards |
+| 42 | Completed Insane Levels |
+| 43 | Wraith Chest Keys |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 | unique_secretB03 | Glubfub coin |
 | unique_secret04 | Official level page secret coin |
