@@ -52,7 +52,7 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
 | 15 | **Death** |
 | 16 | **Forest** |
 | 17 | Rune |
-| 18 | Force |
+| 18 | **Force** |
 | 19 | Spooky |
 | 20 | Dragon |
 | 21 | **Water** |
@@ -71,7 +71,7 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
 | 34 | **Portal** |
 | 35 | **Strange** |
 | 36 | **Fantasy** |
-| 37 | Christmas |
+| 37 | **Christmas** |
 | 38 | Surprise |
 | 39 | **Mystery** |
 | 40 | **Cursed** |
