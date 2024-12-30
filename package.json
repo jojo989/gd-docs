@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/gd-programming/gddocs#readme",
   "dependencies": {
-    "chalk": "^5.4.1",
     "docsify-cli": "^4.4.4"
   }
 }

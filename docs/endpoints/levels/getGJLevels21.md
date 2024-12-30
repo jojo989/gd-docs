@@ -98,7 +98,7 @@
 </details>
 
 <details id="len">
-    <summapry><code>len</code></summary>
+    <summary><code>len</code></summary>
 
 | len | Value  |
 | :-: | ------ |

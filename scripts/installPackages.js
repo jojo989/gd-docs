@@ -1,6 +1,5 @@
 // install_packages.js
 // made by Homura
-import chalk from 'chalk';
 import fs from 'fs';
 import { exec } from 'child_process';
 
@@ -13,6 +12,6 @@ const missing = Object.keys(packageJson.dependencies)
     .filter((packageName) => !fs.existsSync(`../node_modules/${packageName}`));
 
 if (missing.length > 0) {
-    console.log(chalk.hex("#79b0fc")("Installing Packages: ") + missing.join(", "));
+    console.log(("Installing Packages: ") + missing.join(", "));
     exec(`npm i --save ${missing.join(" ")}`);
 }
