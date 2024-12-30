@@ -38,6 +38,9 @@ Returns 1 if deleted, -1 if it failed or the list does not exist.
 import requests
 
 # With this code, DevExit is deleting the list with ID 414808
+headers = {
+    "User-Agent": ""
+}
 
 data = {
         "accountID": 173831, # DevExit's account ID
@@ -46,7 +49,7 @@ data = {
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelList.php", data=data)
+req = requests.post("http://www.boomlings.com/database/deleteGJLevelList.php", data=data, headers=headers)
 print(req.text)
 ```
 
