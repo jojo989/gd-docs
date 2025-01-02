@@ -34,19 +34,30 @@ Returns the index of the current daily level and the time left in seconds, separ
 
 ```py
 import requests
-
+url = "http://www.boomlings.com/database/getGJDailyLevel.php"
 data = {
-	"weekly": 1,
-    "secret": "Wmfd2893gb7"
+    "secret": "Wmfd2893gb7",
+    "weekly": "1"
+}
+headers = {
+    "User-Agent": ""  # Empty User-Agent
 }
 
-req = requests.post("http://boomlings.com/database/getGJDailyLevel.php", data=data)
-print(req.text)
+response = requests.post(url, data=data, headers=headers)
+print(response.text)
 ```
+
+### **curl**
+
+```plain
+curl -X POST http://www.boomlings.com/database/getGJDailyLevel.php -d "secret=Wmfd2893gb7&weekly=1" -A ""
+```
+
+<!-- tabs:end -->
 
 **Response**
 ```py
-100146|121576
+2959|19186
 ```
 
 <!-- tabs:end -->
