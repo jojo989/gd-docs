@@ -1,6 +1,6 @@
 # Vault Codes
 
-In Geometry Dash 2.2 there are three different vaults you can access. The Vault, Vault of Secrets and the Chamber of Time. Each vault has a select number of passwords that you can enter to unlock icons and colors.
+In Geometry Dash 2.2 there are four different vaults you can access. The Vault, Vault of Secrets, Chamber of Time and The Wraith. Each vault has a select number of passwords that you can enter to unlock icons and colors. The Wraith is the first vault that is server-sided, meaning the rewards are checked on the server, they can change over time and can not be found by reverse engineering.
 
 ## Vault Code Encryption
 

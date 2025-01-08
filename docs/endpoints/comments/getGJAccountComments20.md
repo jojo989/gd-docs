@@ -35,17 +35,28 @@ Returns a list of [comment objects](/resources/server/comment.md) separated by a
 ```py
 import requests
 
-# This code returns DevExit's account comments.
-
 data = {
-    "accountID": 173831, # DevExit's account ID
+    "accountID": 173831,  # DevExit's account ID
     "page": 0,
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJAccountComments20.php", data=data)
+headers = {
+    "User-Agent": ""
+}
+
+url = "http://www.boomlings.com/database/getGJAccountComments20.php"
+req = requests.post(url, data=data, headers=headers)
 print(req.text)
 ```
+
+### **curl**
+
+```plain
+curl -X POST "http://www.boomlings.com/database/getGJAccountComments20.php" -H "User-Agent: " -d "accountID=173831&page=0&secret=Wmfd2893gb7"
+```
+
+<!-- tabs:end -->
 
 **Response**
 ```py

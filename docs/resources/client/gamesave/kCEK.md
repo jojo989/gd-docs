@@ -43,6 +43,7 @@
 | 12| Metal Shard |
 | 13| Light Shard |
 | 14| Soul Shard |
+| 15| Gold Key |
 
 ### GJRewardItem GS Keys
 

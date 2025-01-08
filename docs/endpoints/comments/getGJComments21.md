@@ -45,13 +45,24 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJComments21.php", data=data)
+headers = {
+    "User-Agent": ""
+}
+
+url = "http://www.boomlings.com/database/getGJComments21.php"
+req = requests.post(url, data=data, headers=headers)
 print(req.text)
+
 ```
 
 **Response**
 ```py
-2~ODk4IHRvIGp1c3QgYmVhdCBpbiBwcmFjdGlzZSBtb2RlIGdnIQ==~3~133533914~4~0~7~0~10~0~9~2 minutes~6~31468976:1~depolo~9~41~10~25~11~10~14~1~15~0~16~13735168|2~bm8gY2xpcGVy~3~128127333~4~0~7~0~10~3~9~7 minutes~6~31468705:1~ghjking~9~35~10~15~11~5~14~3~15~2~16~13391416|2~d29yc3QgbGV2ZWwgaW4gdGhlIGdhbWU=~3~19792712~4~0~7~0~10~0~9~11 minutes~6~31468489:1~neondash223~9~44~10~3~11~15~14~1~15~0~16~7609353|2~SGFja2Vy~3~114829268~4~2~7~0~10~0~9~7 hours~6~31448450:1~ThomyTamato~9~35~10~16~11~12~14~4~15~0~16~13280260|2~Z2cgMSBhdHQgKEkgaGFja2VkIGFzIGEgam9rZSk=~3~57842991~4~-4~7~1~10~100~9~8 hours~6~31445587:1~redhotgamerrhg~9~11~10~11~11~5~14~0~15~0~16~8031689|2~aSBjYW50IA==~3~120037785~4~0~7~0~10~10~9~9 hours~6~31441402:1~spot1fy~9~17~10~40~11~41~14~6~15~0~16~11870350|2~cmlwIG1vYmlsZQ==~3~93559688~4~1~7~0~10~0~9~10 hours~6~31437014:1~RandomNameGMD~9~30~10~1~11~12~14~0~15~2~16~10079340|2~Z2cgRVogMiBhdHRlbXB0cyBvbiBtb2JpbGUgWEQ=~3~93957318~4~-4~7~1~10~100~9~10 hours~6~31435874:1~MixtureGD2~9~36~10~40~11~40~14~2~15~2~16~13427406|2~diBCbyB1c2VkIG5vc3Bpa2Ugc28gdGVjaG5pY2FsbHkgbm8=~3~119607081~4~-4~7~1~10~0~9~12 hours~6~31427765:1~DailyChatMoment~9~1~10~12~11~12~14~4~15~2~16~13696752|2~SSBhbSBCbyBJIHBhc3NlZCBpdCB3aXRoIG5vY2xpcCA6RA==~3~130487134~4~-5~7~1~10~100~9~13 hours~6~31421248:1~FernanDash488~9~22~10~9~11~11~14~1~15~0~16~13526460#5705:0:10
+2~NzQgYXR0IHdoYXR0~3~210153877~4~0~7~0~10~4~9~15 minutes~6~46232563:1~dooblom~9~91~10~19~11~11~14~2~15~2~16~23631435|2~QUFBQUFBQUFBQQ==~3~267641474~4~0~7~0~10~37~9~17 minutes~6~46232555:1~CaAlexDa~9~26~10~12~11~2~14~0~15~2~16~19216511|2~SSBzaG91bGQgc3RhcnQgZ3JpbmRpbmcgY2hhbGxlbmdlcyEh~3~263506358~4~0~7~0~10~100~9~31 minutes~6~46232489:1~0bv~9~35~10~3~11~12~14~0~15~0~16~30775227|2~MTk1NiBhdHRlbXB0cyBpbiBwcmFjdGljZSBGSU5BTExZIQ==~3~245747440~4~0~7~0~10~0~9~1 hour~6~46232231:1~artistboylo~9~9~10~6~11~16~14~7~15~2~16~28706271|2~Ui5JLlAgQm8g~3~268611032~4~-2~7~0~10~100~9~5 hours~6~46231318:1~xStixGDx~9~11~10~12~11~12~14~6~15~0~16~31063613|2~bG1hbw==~3~147836572~4~1~7~0~10~5~9~8 hours~6~46231019:1~NGDK~9~1~10~1~11~12~14~6~15~0~16~15162356|2~NzQzIGF0dCBpbiBwcmFjdGljZSx3dw==~3~263745181~4~1~7~0~10~0~9~9 hours~6~46230852:1~eskibime~9~37~10~18~11~12~14~5~15~0~16~30290292|2~d3Rm~3~267359964~4~1~7~0~10~11~9~9 hours~6~46230775:1~knoxoniaa~9~58~10~102~11~12~14~0~15~2~16~30998487|2~W3ZdZXJ0aWNhbCBbc11wZWVkIFtjXW9uc2VydmF0aW9uIGlzIGEgc3VwZXIgbWFyaW8gNjQgc3BlZWRydW5uaW5nIHN0cmF0ZWd5Lg==~3~268138873~4~1~7~0~10~0~9~9 hours~6~46230770:1~ultrabucket~9~108~10~15~11~23~14~0~15~2~16~31054190|2~R0cgMTQgYXR0LiAoSSB3b250IHNob3cgbXkgcGVyY2VudGFnZSBqdXN0IHRydXN0IG1lIG9uIHRoaXMgb25lKQ==~3~116404059~4~1~7~0~10~0~9~10 hours~6~46230718:1~themuffinthief~9~6~10~12~11~9~14~2~15~2~16~18175167#46173:0:10
+```
+
+### **curl**
+```plain
+curl -X POST "http://www.boomlings.com/database/getGJComments21.php" -H "User-Agent: " -d "levelID=60805571&page=0&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

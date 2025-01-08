@@ -12,7 +12,20 @@ Gets info about a newgrounds song.
 
 ### Optional Parameters
 
-N/A
+**accountID**
+
+**binaryVersion** - 45
+
+**gameVersion** - 22
+
+**gjp2**
+
+**secret**
+
+**udid**
+
+**uuid**
+
 
 ## Response
 
