@@ -50,6 +50,7 @@
   
   - [Music Library](/resources/client/musiclibrary.md)
   - [SFX Library](/resources/client/sfxlibrary.md)
+
 **Endpoints**
 
 **Accounts**
@@ -134,6 +135,7 @@
   - [Shop](/topics/shop)
   - [Tags](/topics/tags)
   - [CDN Tokens](/topics/cdn_token.md)
+  - [Endpoints](/endpoints/endpoints.md)
 
 
 - **Algorithms**
