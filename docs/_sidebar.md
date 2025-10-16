@@ -1,147 +1,17 @@
 <!-- docs/_sidebar.md -->
 
+- [Home](/)
+- [Playground](/playground)
 - [Reference]()
-    - [Official Songs](/reference/songs)
-    - [Secrets](/reference/secrets)
-    - [Keys](/reference/keys)
-    - [Salts](/reference/salts)
-- [Request](/endpoints/generic.md)
+ 
 - [Credits](/CREDITS)
 
-
 **Resources**
+ 
+  <!-- docs/_sidebar.md -->
+  - [Reference]()
+    - [Gamemodes Info](/reference/gamemodes%20info.md)
+  - [Credits](/CREDITS)
 
-- **Server**
-  - [Comment](/resources/server/comment.md)
-  - [Friend Request](/resources/server/friendrequest.md)
-  - [Gauntlet](/resources/server/gauntlet.md)
-  - [Hashes](/resources/server/hashes.md)
-  - [Leaderboard Score](/resources/server/leaderboardscore.md)
-  - [Level](/resources/server/level.md)
-  - [List](/resources/server/list.md)
-  - [Map Pack](/resources/server/mappack.md)
-  - [Message](/resources/server/message.md)
-  - [Song](/resources/server/song.md)
-  - [User](/resources/server/user.md)
-  - [Restore](/resources/server/restore.md)
-- **Client**
-  - [Gamesave](/resources/client/gamesave.md)
-    - [Encoder Keys](resources/client/gamesave/kCEK.md)
-    - [GS Values](/resources/client/gamesave/GS_Value.md)
-    - [GLM](/resources/client/gamesave/GLM.md)
-    - [Value Keeper](/resources/client/gamesave/valueKeeper.md)
-    - [Game Variables](/resources/client/gamesave/gv.md)
-    - [Achievements](/resources/client/gamesave/achievement.md)
-    - [Quests](/resources/client/gamesave/quests.md)
-    - [Platformer UI](resources/client/gamesave/dpad.md)
-    - [Smart Templates](resources/client/gamesave/template.md)
-    - [Lists](resources/client/gamesave/list.md)
-    - [Enumerations](/resources/client/gamesave/enums.md)
-
-  - [Level](/resources/client/level.md)
-    - [Capacity String](/resources/client/level-components/capacity-string.md)
-    - [Enumerations](/resources/client/level-components/enumerations.md)
-    - [Level Colors](/resources/client/level-components/level-colors.md)
-    - [Start Level String](/resources/client/level-components/level-start.md)
-    - [Level String](/resources/client/level-components/level-string.md)
-    - [Color String](/resources/client/level-components/color-string.md)
-    - [Guideline String](/resources/client/level-components/guideline-string.md)
-    - [Particle String](/resources/client/level-components/particle-string.md)
-  
-  - [Music Library](/resources/client/musiclibrary.md)
-  - [SFX Library](/resources/client/sfxlibrary.md)
-
-**Endpoints**
-
-**Accounts**
-  - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
-  - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
-  - [loginGJAccount](/endpoints/accounts/loginGJAccount.md)
-  - [registerGJAccount](/endpoints/accounts/registerGJAccount.md)
-  - [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20.md)
-**Users**
-  - [getGJScores20](/endpoints/users/getGJScores20.md)
-  - [getGJUserInfo20](/endpoints/users/getGJUserInfo20.md)
-  - [getGJUsers20](/endpoints/users/getGJUsers20.md)
-  - [updateGJUserScore22](/endpoints/users/updateGJUserScore22.md)
-**Levels**
-  - [deleteGJLevelUser20](/endpoints/levels/deleteGJLevelUser20.md)
-  - [downloadGJLevel22](/endpoints/levels/downloadGJLevel22.md)
-  - [getGJDailyLevel](/endpoints/levels/getGJDailyLevel.md)
-  - [getGJGauntlets21](/endpoints/levels/getGJGauntlets21.md)
-  - [getGJLevels21](/endpoints/levels/getGJLevels21.md)
-  - [getGJLevelScores211](/endpoints/levels/getGJLevelScores211.md)
-  - [getGJLevelScoresPlat](/endpoints/levels/getGJLevelScoresPlat.md)
-  - [getGJMapPacks21](/endpoints/levels/getGJMapPacks21.md)
-  - [rateGJDemon21](/endpoints/levels/rateGJDemon21.md)
-  - [rateGJStars211](/endpoints/levels/rateGJStars211.md)
-  - [reportGJLevel](/endpoints/levels/reportGJLevel.md)
-  - [suggestGJStars20](/endpoints/levels/suggestGJStars.md)
-  - [updateGJDesc20](/endpoints/levels/updateGJDesc20.md)
-  - [uploadGJLevel21](/endpoints/levels/uploadGJLevel21.md)
-**Lists**
-  - [deleteGJLevelList](/endpoints/lists/deleteGJLevelList.md)
-  - [getGJLevelLists](/endpoints/lists/getGJLevelLists.md)
-  - [uploadGJLevelList](/endpoints/lists/uploadGJLevelList.md)
-**Multiplayer**
-  - [exitMPLobby](/endpoints/multiplayer/exitMPLobby.md)
-  - [joinMPLobby](/endpoints/multiplayer/joinMPLobby.md)
-  - [uploadMPComment](/endpoints/multiplayer/uploadMPComment.md)
-**Comments**
-  - [deleteGJAccComment20](/endpoints/comments/deleteGJAccComment20.md)
-  - [deleteGJComment20](/endpoints/comments/deleteGJComment20.md)
-  - [getGJAccountComments20](/endpoints/comments/getGJAccountComments20.md)
-  - [getGJCommentHistory](/endpoints/comments/getGJCommentHistory.md)
-  - [getGJComments21](/endpoints/comments/getGJComments21.md)
-  - [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)
-  - [uploadGJComment21](/endpoints/comments/uploadGJComment21.md)
-**Socials**
-  - [acceptGJFriendRequest20](/endpoints/socials/acceptGJFriendRequest20.md)
-  - [blockGJUser20](/endpoints/socials/blockGJUser20.md)
-  - [deleteGJFriendRequests20](/endpoints/socials/deleteGJFriendRequests20.md)
-  - [deleteGJMessages20](/endpoints/socials/deleteGJMessages20.md)
-  - [downloadGJMessage20](/endpoints/socials/downloadGJMessage20.md)
-  - [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20.md)
-  - [getGJMessages20](/endpoints/socials/getGJMessages20.md)
-  - [getGJUserList20](/endpoints/socials/getGJUserList20.md)
-  - [readGJFriendRequest20](/endpoints/socials/readGJFriendRequest20.md)
-  - [removeGJFriend20](/endpoints/socials/removeGJFriend20.md)
-  - [unblockGJUser20](/endpoints/socials/unblockGJUser20.md)
-  - [uploadFriendRequest20](/endpoints/socials/UploadFriendRequest20.md)
-  - [uploadGJMessage20](/endpoints/socials/uploadGJMessage20.md)
-**Rewards**
-  - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)
-  - [getGJRewards](/endpoints/rewards/getGJRewards.md)
-**Songs**
-  - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
-  - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
-  - [testSong](/endpoints/songs/testSong.md)
-  - [musiclibrary.dat](/endpoints/songs/musiclibrary.md)
-  - [sfxlibrary.dat](/endpoints/songs/sfxlibrary.md)
-**Misc**
-  - [getAccountURL](/endpoints/misc/getAccountURL.md)
-  - [getSaveData](/endpoints/misc/getSaveData.md)
-  - [getTop1000](/endpoints/misc/getTop1000.md)
-  - [likeGJItem211](/endpoints/misc/likeGJItem211.md)
-  - [requestUserAccess](/endpoints/misc/requestUserAccess.md)
-  - [restoreGJItems](/endpoints/misc/restoreGJItems.md)
-- **Topics**
-  - [GJP](/topics/gjp.md)
-  - [Level Passwords](/topics/level_passwords.md)
-  - [Level Encoding/Decoding](/topics/levelstring_encoding_decoding.md)
-  - [Game Save Files Encryption/Decryption](/topics/localfiles_encrypt_decrypt.md)
-  - [Status Codes](/topics/status_codes.md)
-  - [Vault Codes](/topics/vault_codes.md)
-  - [Shop](/topics/shop)
-  - [Tags](/topics/tags)
-  - [CDN Tokens](/topics/cdn_token.md)
-  - [Endpoints](/endpoints/endpoints.md)
-
-
-- **Algorithms**
-  - [AES](topics/encryption/AES.md)
-  - [Base64 Encoding](topics/encryption/base64.md)
-  - [CHK Generation](topics/encryption/chk.md)
-  - [RS, UDID and UUID](topics/encryption/id.md)
-  - [Xor](topics/encryption/xor.md)
-  - [RobTop Cipher](topics/encryption/robtop-cipher.md)
+  **Resources**
+  - [Game Physics](/resources/game%20physics/)
